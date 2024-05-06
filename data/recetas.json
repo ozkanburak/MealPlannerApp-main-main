@@ -1,0 +1,285 @@
+ {
+        "recatasPopulares": [
+            {
+            "titulo": "TACOS VEGETARIANOS DE ALUBIAS (SIN CARNE)",
+            "foto": "https://image.freepik.com/foto-gratis/composicion-tacos-mexicanos_23-2147640322.jpg",
+            "descripcion": "¡Muy buenas a tod@s! Hoy vuelvo con una receta que os presenté la semana pasada por Instagram (que si no me sigues por ahí, no sé a qué esperas) 😉. Traigo unos tacos vegetarianos de alubias, combinados con tomate, aguacate, lechuga picada, pepinillos laminados y un poco de mayonesa de aquafaba que me sobró de la receta de las patatas rellenas de la semana pasada.",
+            "categoria": "Tacos",
+            "duracion": "45min",
+            "dificultad": "Fácil",
+            "preparacion":"1-Lo primero que vamos a hacer es abrir la lata de leche condensada vegana y meterla en la nevera. La recuperaremos más tarde. 2- Empezaremos picando las galletas hasta conseguir que sean un grano muy fino. Yo piqué primero 10 galletas y después las otras diez, porque mi recipiente no es muy grande y quería que se mezclaran bien los ingredinentes, por eso veréis en las fotos la mitad de los ingredientes. 3-Cunado tengamos ya las 20 galletas trituradas, unos 600 gramos, añadimos 2/3 de taza de margarina derretida o aceite de coco en estado líquido.",
+            "ingredientes": [
+                {
+                    
+                    "ingrediente": "200 gr de Alubias pintas cocidas",
+                    "fotoIngrediente": "https://i.blogs.es/7bf92b/receta-de-tortillas-mexicanas-de-maiz/840_560.jpg"
+                },
+                {
+                    
+                    "ingrediente": "1/2 aguacate maduro",
+                    "fotoIngrediente": "https://i.blogs.es/7bf92b/receta-de-tortillas-mexicanas-de-maiz/840_560.jpg"
+                },
+                {
+                    
+                    "ingrediente": "4 tortillas de maíz",
+                    "fotoIngrediente": "https://i.blogs.es/7bf92b/receta-de-tortillas-mexicanas-de-maiz/840_560.jpg"
+                },
+                {
+                   
+                    "ingrediente": "1 tomate",
+                    "fotoIngrediente": "https://www.quo.es/wp-content/uploads/2019/10/el-tomate-es-una-fruta-una-hortaliza-una-verdura-1280x720.jpg"
+                },
+                {
+                 
+                    "ingrediente": "Olivas verdes",
+                    "fotoIngrediente": "https://www.proximaati.com/-/media/Growing-Families-Version1/GF-ES/Editorial-Contents/Articles/Jolt-Images/como-preparar-olivas-caseras-1920x900.jpg"
+                }
+            ]
+        },
+        {
+            "titulo": "CROQUETAS PROTEICAS DE GARBANZO",
+            "foto": "https://img.grouponcdn.com/deal/2poSSXtnsXAGMbADr5uzWP8JpGRL/2p-1000x600/v1/c700x420.jpg",
+            "descripcion": "¡Muy buenas a tod@s! Hoy vuelvo con una receta que os presenté la semana pasada por Instagram (que si no me sigues por ahí, no sé a qué esperas) 😉. Traigo unos tacos vegetarianos de alubias, combinados con tomate, aguacate, lechuga picada, pepinillos laminados y un poco de mayonesa de aquafaba que me sobró de la receta de las patatas rellenas de la semana pasada.",
+            "categoria": "Tacos",
+            "duracion": "45min",
+            "dificultad": "Fácil",
+            "preparacion":"1-Lo primero que vamos a hacer es abrir la lata de leche condensada vegana y meterla en la nevera. La recuperaremos más tarde. 2- Empezaremos picando las galletas hasta conseguir que sean un grano muy fino. Yo piqué primero 10 galletas y después las otras diez, porque mi recipiente no es muy grande y quería que se mezclaran bien los ingredinentes, por eso veréis en las fotos la mitad de los ingredientes. 3-Cunado tengamos ya las 20 galletas trituradas, unos 600 gramos, añadimos 2/3 de taza de margarina derretida o aceite de coco en estado líquido.",
+            "ingredientes": [
+                {
+                    
+                    "ingrediente": "200 gr de Alubias pintas cocidas",
+                    "fotoIngrediente": "https://i.blogs.es/7bf92b/receta-de-tortillas-mexicanas-de-maiz/840_560.jpg"
+                },
+                {
+                    
+                    "ingrediente": "1/2 aguacate maduro",
+                    "fotoIngrediente": "https://i.blogs.es/7bf92b/receta-de-tortillas-mexicanas-de-maiz/840_560.jpg"
+                },
+                {
+                    
+                    "ingrediente": "4 tortillas de maíz",
+                    "fotoIngrediente": "https://i.blogs.es/7bf92b/receta-de-tortillas-mexicanas-de-maiz/840_560.jpg"
+                },
+                {
+                   
+                    "ingrediente": "1 tomate",
+                    "fotoIngrediente": "https://www.quo.es/wp-content/uploads/2019/10/el-tomate-es-una-fruta-una-hortaliza-una-verdura-1280x720.jpg"
+                },
+                {
+                 
+                    "ingrediente": "Olivas verdes",
+                    "fotoIngrediente": "https://www.proximaati.com/-/media/Growing-Families-Version1/GF-ES/Editorial-Contents/Articles/Jolt-Images/como-preparar-olivas-caseras-1920x900.jpg"
+                }
+            ]
+        }
+        ],
+        "categorias": [
+
+                {
+                    "nombre": "Croquestas",
+                    "foto": "https://image.freepik.com/foto-gratis/composicion-tacos-mexicanos_23-2147640322.jpg"
+                },
+                {
+                
+                    "nombre": "Postres",
+                    "foto": "https://img.grouponcdn.com/deal/2poSSXtnsXAGMbADr5uzWP8JpGRL/2p-1000x600/v1/c700x420.jpg"
+                },
+                {
+                
+                    "nombre": "Kebap",
+                    "foto": "https://image.freepik.com/foto-gratis/composicion-tacos-mexicanos_23-2147640322.jpg"
+                },
+                {
+             
+                    "nombre": "Pizza",
+                    "foto": "https://img.grouponcdn.com/deal/2poSSXtnsXAGMbADr5uzWP8JpGRL/2p-1000x600/v1/c700x420.jpg"
+                }
+        ],  
+        "Croquestas": [
+            {
+            
+                "titulo": "CROQUETAS PROTEICAS DE GARBANZO",
+                "foto": "https://img.grouponcdn.com/deal/2poSSXtnsXAGMbADr5uzWP8JpGRL/2p-1000x600/v1/c700x420.jpg",
+                "descripcion": "¡Buenos días a todos! Ya estamos en Septiembre, qué maravilla. Poco a poco empezaremos con los platos de Otoño, pero de momento aún hace demasiado calor como para aventurarnos a eso. De momento traigo una pequeña introducción al Otoño con este plato de Pasta con salsa de Boniato y shiitake (¡Por fin llegan los boniatos y las setas!).",
+                "categoria": "Croquetas",
+                "duracion": "15min",
+                "dificultad": "Fácil",
+                "preparacion":"1-Lo primero que vamos a hacer es abrir la lata de leche condensada vegana y meterla en la nevera. La recuperaremos más tarde. 2- Empezaremos picando las galletas hasta conseguir que sean un grano muy fino. Yo piqué primero 10 galletas y después las otras diez, porque mi recipiente no es muy grande y quería que se mezclaran bien los ingredinentes, por eso veréis en las fotos la mitad de los ingredientes. 3-Cunado tengamos ya las 20 galletas trituradas, unos 600 gramos, añadimos 2/3 de taza de margarina derretida o aceite de coco en estado líquido.",
+                "ingredientes": [
+                    {
+            
+                        "ingrediente": "200 gr de Alubias pintas cocidas",
+                        "fotoIngrediente": "https://i.blogs.es/7bf92b/receta-de-tortillas-mexicanas-de-maiz/840_560.jpg"
+                    },
+                    {
+                
+                        "ingrediente": "1/2 aguacate maduro",
+                        "fotoIngrediente": "https://i.blogs.es/7bf92b/receta-de-tortillas-mexicanas-de-maiz/840_560.jpg"
+                    },
+                    {
+                
+                        "ingrediente": "4 tortillas de maíz",
+                        "fotoIngrediente": "https://i.blogs.es/7bf92b/receta-de-tortillas-mexicanas-de-maiz/840_560.jpg"
+                    },
+                    {
+                
+                        "ingrediente": "1 tomate",
+                        "fotoIngrediente": "https://www.quo.es/wp-content/uploads/2019/10/el-tomate-es-una-fruta-una-hortaliza-una-verdura-1280x720.jpg"
+                    },
+                    {
+                
+                        "ingrediente": "Olivas verdes",
+                        "fotoIngrediente": "https://www.proximaati.com/-/media/Growing-Families-Version1/GF-ES/Editorial-Contents/Articles/Jolt-Images/como-preparar-olivas-caseras-1920x900.jpg"
+                    }
+                ]
+            },
+            {
+            
+                "titulo": "CROQUETAS PROTEICAS DE GARBANZO",
+                "foto": "https://img.grouponcdn.com/deal/2poSSXtnsXAGMbADr5uzWP8JpGRL/2p-1000x600/v1/c700x420.jpg",
+                "descripcion": "¡Buenos días a todos! Ya estamos en Septiembre, qué maravilla. Poco a poco empezaremos con los platos de Otoño, pero de momento aún hace demasiado calor como para aventurarnos a eso. De momento traigo una pequeña introducción al Otoño con este plato de Pasta con salsa de Boniato y shiitake (¡Por fin llegan los boniatos y las setas!).",
+                "categoria": "Croquetas",
+                "duracion": "15min",
+                "dificultad": "Fácil",
+                "preparacion":"1-Lo primero que vamos a hacer es abrir la lata de leche condensada vegana y meterla en la nevera. La recuperaremos más tarde. 2- Empezaremos picando las galletas hasta conseguir que sean un grano muy fino. Yo piqué primero 10 galletas y después las otras diez, porque mi recipiente no es muy grande y quería que se mezclaran bien los ingredinentes, por eso veréis en las fotos la mitad de los ingredientes. 3-Cunado tengamos ya las 20 galletas trituradas, unos 600 gramos, añadimos 2/3 de taza de margarina derretida o aceite de coco en estado líquido.",
+                "ingredientes": [
+                    {
+            
+                        "ingrediente": "200 gr de Alubias pintas cocidas",
+                        "fotoIngrediente": "https://i.blogs.es/7bf92b/receta-de-tortillas-mexicanas-de-maiz/840_560.jpg"
+                    },
+                    {
+                
+                        "ingrediente": "1/2 aguacate maduro",
+                        "fotoIngrediente": "https://i.blogs.es/7bf92b/receta-de-tortillas-mexicanas-de-maiz/840_560.jpg"
+                    },
+                    {
+                
+                        "ingrediente": "4 tortillas de maíz",
+                        "fotoIngrediente": "https://i.blogs.es/7bf92b/receta-de-tortillas-mexicanas-de-maiz/840_560.jpg"
+                    },
+                    {
+                
+                        "ingrediente": "1 tomate",
+                        "fotoIngrediente": "https://www.quo.es/wp-content/uploads/2019/10/el-tomate-es-una-fruta-una-hortaliza-una-verdura-1280x720.jpg"
+                    },
+                    {
+                
+                        "ingrediente": "Olivas verdes",
+                        "fotoIngrediente": "https://www.proximaati.com/-/media/Growing-Families-Version1/GF-ES/Editorial-Contents/Articles/Jolt-Images/como-preparar-olivas-caseras-1920x900.jpg"
+                    }
+                ]
+            }
+        ],
+        "Postres": [
+        {
+            
+            "titulo": "TORTITAS VEGANAS DE CALABAZA Y SIROPE (PANCAKES)",
+            "foto": "https://s1.eestatic.com/2017/08/19/cocinillas/Cocinillas_240240267_116374174_1024x576.jpg",
+            "descripcion": "¡Buenos días a todos! Ya estamos en Septiembre, qué maravilla. Poco a poco empezaremos con los platos de Otoño, pero de momento aún hace demasiado calor como para aventurarnos a eso. De momento traigo una pequeña introducción al Otoño con este plato de Pasta con salsa de Boniato y shiitake (¡Por fin llegan los boniatos y las setas!).",
+            "categoria": "Postres",
+            "duracion": "10min",
+            "dificultad": "Fácil",
+            "preparacion":"1-Lo primero que vamos a hacer es abrir la lata de leche condensada vegana y meterla en la nevera. La recuperaremos más tarde. 2- Empezaremos picando las galletas hasta conseguir que sean un grano muy fino. Yo piqué primero 10 galletas y después las otras diez, porque mi recipiente no es muy grande y quería que se mezclaran bien los ingredinentes, por eso veréis en las fotos la mitad de los ingredientes. 3-Cunado tengamos ya las 20 galletas trituradas, unos 600 gramos, añadimos 2/3 de taza de margarina derretida o aceite de coco en estado líquido.",
+            "ingredientes": [
+                {
+          
+                    "ingrediente": "ŞEche emtere",
+                    "fotoIngrediente": "https://cdn1.cocina-familiar.com/recetas/thumb/alubias-blancas-a-la-riojana.JPG"
+                },
+                {
+                
+                    "ingrediente": "yum",
+                    "fotoIngrediente": "https://i.blogs.es/7bf92b/receta-de-tortillas-mexicanas-de-maiz/840_560.jpg"
+                },
+                {
+                 
+                    "ingrediente": "domates",
+                    "fotoIngrediente": "https://i.blogs.es/7bf92b/receta-de-tortillas-mexicanas-de-maiz/840_560.jpg"
+                },
+                {
+                   
+                    "ingrediente": "1 tomate",
+                    "fotoIngrediente": "https://www.quo.es/wp-content/uploads/2019/10/el-tomate-es-una-fruta-una-hortaliza-una-verdura-1280x720.jpg"
+                }
+
+            ]
+        }
+        ],
+        "Pizza": [
+            {
+                
+                "titulo": "TORTITAS VEGANAS DE CALABAZA Y SIROPE (PANCAKES)",
+                "foto": "https://s1.eestatic.com/2017/08/19/cocinillas/Cocinillas_240240267_116374174_1024x576.jpg",
+                "descripcion": "¡Buenos días a todos! Ya estamos en Septiembre, qué maravilla. Poco a poco empezaremos con los platos de Otoño, pero de momento aún hace demasiado calor como para aventurarnos a eso. De momento traigo una pequeña introducción al Otoño con este plato de Pasta con salsa de Boniato y shiitake (¡Por fin llegan los boniatos y las setas!).",
+                "categoria": "Postres",
+                "duracion": "10min",
+                "dificultad": "Fácil",
+                "preparacion":"1-Lo primero que vamos a hacer es abrir la lata de leche condensada vegana y meterla en la nevera. La recuperaremos más tarde. 2- Empezaremos picando las galletas hasta conseguir que sean un grano muy fino. Yo piqué primero 10 galletas y después las otras diez, porque mi recipiente no es muy grande y quería que se mezclaran bien los ingredinentes, por eso veréis en las fotos la mitad de los ingredientes. 3-Cunado tengamos ya las 20 galletas trituradas, unos 600 gramos, añadimos 2/3 de taza de margarina derretida o aceite de coco en estado líquido.",
+                "ingredientes": [
+                    {
+              
+                        "ingrediente": "ŞEche emtere",
+                        "fotoIngrediente": "https://cdn1.cocina-familiar.com/recetas/thumb/alubias-blancas-a-la-riojana.JPG"
+                    },
+                    {
+                    
+                        "ingrediente": "yum",
+                        "fotoIngrediente": "https://i.blogs.es/7bf92b/receta-de-tortillas-mexicanas-de-maiz/840_560.jpg"
+                    },
+                    {
+                     
+                        "ingrediente": "domates",
+                        "fotoIngrediente": "https://i.blogs.es/7bf92b/receta-de-tortillas-mexicanas-de-maiz/840_560.jpg"
+                    },
+                    {
+                       
+                        "ingrediente": "1 tomate",
+                        "fotoIngrediente": "https://www.quo.es/wp-content/uploads/2019/10/el-tomate-es-una-fruta-una-hortaliza-una-verdura-1280x720.jpg"
+                    }
+    
+                ]}
+        ],
+        "Kebap": [
+            {
+                
+                "titulo": "TORTITAS VEGANAS DE CALABAZA Y SIROPE (PANCAKES)",
+                "foto": "https://s1.eestatic.com/2017/08/19/cocinillas/Cocinillas_240240267_116374174_1024x576.jpg",
+                "descripcion": "¡Buenos días a todos! Ya estamos en Septiembre, qué maravilla. Poco a poco empezaremos con los platos de Otoño, pero de momento aún hace demasiado calor como para aventurarnos a eso. De momento traigo una pequeña introducción al Otoño con este plato de Pasta con salsa de Boniato y shiitake (¡Por fin llegan los boniatos y las setas!).",
+                "categoria": "Postres",
+                "duracion": "10min",
+                "dificultad": "Fácil",
+                "preparacion":"1-Lo primero que vamos a hacer es abrir la lata de leche condensada vegana y meterla en la nevera. La recuperaremos más tarde. 2- Empezaremos picando las galletas hasta conseguir que sean un grano muy fino. Yo piqué primero 10 galletas y después las otras diez, porque mi recipiente no es muy grande y quería que se mezclaran bien los ingredinentes, por eso veréis en las fotos la mitad de los ingredientes. 3-Cunado tengamos ya las 20 galletas trituradas, unos 600 gramos, añadimos 2/3 de taza de margarina derretida o aceite de coco en estado líquido.",
+                "ingredientes": [
+                    {
+              
+                        "ingrediente": "ŞEche emtere",
+                        "fotoIngrediente": "https://cdn1.cocina-familiar.com/recetas/thumb/alubias-blancas-a-la-riojana.JPG"
+                    },
+                    {
+                    
+                        "ingrediente": "yum",
+                        "fotoIngrediente": "https://i.blogs.es/7bf92b/receta-de-tortillas-mexicanas-de-maiz/840_560.jpg"
+                    },
+                    {
+                     
+                        "ingrediente": "domates",
+                        "fotoIngrediente": "https://i.blogs.es/7bf92b/receta-de-tortillas-mexicanas-de-maiz/840_560.jpg"
+                    },
+                    {
+                       
+                        "ingrediente": "1 tomate",
+                        "fotoIngrediente": "https://www.quo.es/wp-content/uploads/2019/10/el-tomate-es-una-fruta-una-hortaliza-una-verdura-1280x720.jpg"
+                    }
+    
+                ]}
+        ]
+       
+        
+    }
+    
+    
+
+
+
+
