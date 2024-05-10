@@ -1,32 +1,39 @@
 
 
-import 'package:admob_easy/ads/admob_easy.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:recipce_app/src/provider/ads_provider.dart';
 import 'package:recipce_app/src/styles/style.dart';
 
- List<Widget> recetasListado(BuildContext context, List<dynamic> recetasPopulares){
+List<Widget> recetasListado(BuildContext context, List<dynamic> recetasPopulares) {
   final List<Widget> listadoRecetas = [];
 
-  recetasPopulares.forEach((receta) {
+  recetasPopulares.asMap().forEach((index, receta) {
     final listadoWidgetProvisional = _cuerpoRecetaListado(context, titleRecipeStyle, receta);
     listadoRecetas.add(listadoWidgetProvisional);
+
+    // Her 5 öğeden sonra bir Interstitial reklam göster
+    if ((index + 1) % 5 == 0) {
+      final adsProvider = Provider.of<AdsProvider>(context, listen: false);
+      if (adsProvider.interstitialAd != null) {
+        adsProvider.interstitialAd!.show();
+      }
+    }
   });
+
   return listadoRecetas;
-
-
 }
-
-
 Widget _cuerpoRecetaListado(BuildContext context, estilos, Map<String,dynamic>receta){
+
   return Column(
     children: <Widget>[
        SizedBox(height: 10.0,
       ),
       GestureDetector(
         onTap: () {
-          Navigator.pushNamed(context, 'detail', arguments: receta);
-          
-        },
+              Navigator.pushNamed(context, 'detail', arguments: receta);
+          },
+       
         child: Container(
         margin: EdgeInsets.only(left: 8.0,),
         child: ClipRRect(    
@@ -107,7 +114,7 @@ Widget _cuerpoRecetaListado(BuildContext context, estilos, Map<String,dynamic>re
 
                           ),
                           ),
-                        )
+                        ),
 
                       ],
                     )

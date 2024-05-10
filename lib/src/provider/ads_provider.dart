@@ -1,25 +1,34 @@
+import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
-InterstitialAd? _interstitialAd;
+class AdsProvider extends ChangeNotifier {
+  BannerAd? _bannerAd;
+  InterstitialAd? _interstitialAd;
 
-void _loadInterstitialAd() {
-  InterstitialAd.load(
-    adUnitId: 'your-interstitial-ad-unit-id',
-    request: AdRequest(),
-    adLoadCallback: InterstitialAdLoadCallback(
-      onAdLoaded: (InterstitialAd ad) {
-        _interstitialAd = ad;
-      },
-      onAdFailedToLoad: (LoadAdError error) {
-        print('InterstitialAd failed to load: $error');
-      },
-    ),
-  );
-}
+  BannerAd? get bannerAd => _bannerAd;
+  InterstitialAd? get interstitialAd => _interstitialAd;
 
-void _showInterstitialAd() {
-  if (_interstitialAd != null) {
-    _interstitialAd!.show();
-    _interstitialAd = null; // Dispose the ad after showing it
+  void loadBannerAd() {
+    final adUnitId = 'ca-app-pub-3940256099942544/6300978111'; // Banner reklam birimi kimliğinizi buraya ekleyin
+
+    _bannerAd = BannerAd(
+      adUnitId: adUnitId,
+      size: AdSize.banner,
+      request: AdRequest(),
+      listener: BannerAdListener(
+        onAdLoaded: (Ad ad) {
+          // Reklam başarıyla yüklendiğinde yapılacak işlemler
+          notifyListeners();
+        },
+        onAdFailedToLoad: (Ad ad, LoadAdError error) {
+          // Reklam yüklenemediğinde yapılacak işlemler
+          ad.dispose();
+        },
+      ),
+    );
+
+    _bannerAd!.load();
   }
+
+ 
 }

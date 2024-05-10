@@ -31,6 +31,8 @@ class DetailPage extends StatelessWidget {
             ), 
             titles('Detail', titleStyle),
             _textDescription(receta['preparacion']),
+            SizedBox(height: 20.0),
+            
           ]))
         ],
         

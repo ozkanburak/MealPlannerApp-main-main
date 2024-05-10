@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'package:provider/provider.dart';
+import 'package:recipce_app/src/provider/ads_provider.dart';
 import 'package:recipce_app/src/provider/recatas_provider.dart';
 import 'package:recipce_app/src/styles/style.dart';
 import 'package:recipce_app/src/viewModels/recipe_list.dart';
@@ -9,19 +11,14 @@ import 'package:recipce_app/src/widget/swiper_categorie.dart';
 import 'package:recipce_app/src/widget/swipper_popular.dart';
 import 'package:recipce_app/src/widget/titles.dart';
 
-
-
 class HomePage extends StatelessWidget {
-
-  final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey();
-
+  final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey();
 
   @override
   Widget build(BuildContext context) {
-
-    
-    
-    return Scaffold(
+    return ChangeNotifierProvider(
+      create: (context) => AdsProvider()..loadBannerAd(),
+      child: Scaffold(
         drawer: menuLateral(context),
         key: _scaffoldKey,
         backgroundColor: colorBG,
@@ -32,7 +29,7 @@ class HomePage extends StatelessWidget {
               delegate: SliverChildListDelegate(
                 [
                   Column(
-                    children: <Widget> [
+                    children: <Widget>[
                       swiperPopuler(),
                       titles('Category', titleStyle),
                       SwiperCategorie(),
@@ -45,15 +42,40 @@ class HomePage extends StatelessWidget {
                             children: recetasListado(context, snapshot.data??[]),
                           );
                         }
-                        )
+                      ),
+                      SizedBox(height: 10), // Araya boşluk ekleyebilirsiniz.
+                      // Banner reklam alanı
+                      Consumer<AdsProvider>(
+                        builder: (context, adsProvider, child) {
+                          if (adsProvider.bannerAd == null) {
+                            // Reklam yüklenmemişse, yer tutucu bir widget dön
+                            return Container(
+                              height: 50, // Reklam yüklenene kadar sabit bir yükseklik
+                              color: Colors.grey, // Yer tutucu rengi
+                              alignment: Alignment.center,
+                              child: Text(
+                                'Banner Ad Placeholder',
+                                style: TextStyle(color: Colors.white),
+                              ),
+                            );
+                          } else {
+                            // Reklam yüklenmişse, reklamı dön
+                            return Container(
+                              height: adsProvider.bannerAd!.size.height.toDouble(),
+                              width: adsProvider.bannerAd!.size.width.toDouble(),
+                              child: AdWidget(ad: adsProvider.bannerAd!),
+                            );
+                          }
+                        },
+                      ),
                     ],
-                  )
-                ]
-              )
-              )
-
+                  ),
+                ],
+              ),
+            ),
           ],
-        )
-      );
+        ),
+      ),
+    );
   }
 }
