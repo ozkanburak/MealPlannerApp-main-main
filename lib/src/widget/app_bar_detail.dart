@@ -5,7 +5,7 @@ import 'package:recipce_app/src/styles/style.dart';
 
 Widget appBarDetail(String foto){
   return SliverAppBar(
-    backgroundColor: colorBG,
+    backgroundColor: Colors.deepOrangeAccent,
     expandedHeight: 200.0,
     floating: false,
     pinned: true,

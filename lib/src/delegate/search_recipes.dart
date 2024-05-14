@@ -12,6 +12,7 @@ class RecetasSearchDelegate extends SearchDelegate{
     return theme.copyWith(
       primaryColor:  theme.primaryColorLight,
       primaryIconTheme: theme.primaryIconTheme,
+       backgroundColor: Colors.deepOrangeAccent,
       brightness: Brightness.dark,
       primaryTextTheme: theme.primaryTextTheme,
       textTheme: theme.textTheme.copyWith(

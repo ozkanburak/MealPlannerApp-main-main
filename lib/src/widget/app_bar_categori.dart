@@ -3,7 +3,7 @@ import 'package:recipce_app/src/styles/style.dart';
 
 Widget appBarCategori(String title){
   return SliverAppBar(
-    backgroundColor: colorBG,
+    backgroundColor: Colors.deepOrangeAccent,
     floating: false,
     pinned: true,
     elevation: 0.0,

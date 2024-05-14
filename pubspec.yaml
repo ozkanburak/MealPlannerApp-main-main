@@ -40,6 +40,9 @@ dependencies:
   flutter_swiper_view: ^1.1.8
   google_mobile_ads: ^0.13.4
   provider: ^6.1.2
+  url_launcher: ^6.2.6
+  firebase_messaging: ^14.9.2
+  dio: ^4.0.6
 
 dev_dependencies:
   flutter_test:

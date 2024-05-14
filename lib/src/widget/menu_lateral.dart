@@ -1,4 +1,6 @@
  import 'package:flutter/material.dart';
+import 'package:recipce_app/src/pages/bilgi_sayfasi.dart';
+import 'package:recipce_app/src/pages/catergoria_page.dart';
 import 'package:recipce_app/src/styles/style.dart';
 
 Drawer menuLateral(context){
@@ -12,27 +14,31 @@ Drawer menuLateral(context){
           DrawerHeader(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('assets/recipe-slider1.png'),
-                fit: BoxFit.cover
+                image: AssetImage('assets/foodicon.png'),
+                fit: BoxFit.contain
                 )
-            ),
-            child: Container(
-              alignment: Alignment.center,
-              child: Text('Practical Tastes', style: estiloTextomMenuLateral),
-            )
+            ), child: null,
+            
+            
             ),
             ListTile(
               leading: Icon(Icons.fastfood,color: colorIcons),
               title: Text('Category'),
               onTap: () {
-                Navigator.pushNamed(context, 'categoria');
+                Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => CategorieDrawer()),
+            );
               },
             ),
              ListTile(
               leading: Icon(Icons.help,color: colorIcons),
               title: Text('Setting'),
               onTap: () {
-                Navigator.pushNamed(context, 'categoria');
+                Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => BilgiSayfasi()),
+            );
               },
             ),
       
